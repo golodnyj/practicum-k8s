@@ -1,0 +1,34 @@
+body{
+    margin-top: 5px;
+    font-size: 15pt;
+}
+h2 {
+    font-size: 30pt;
+}
+li {
+    font-size: 20pt;
+}
+
+body.light{
+    background: #ffffff;
+    color: #0077ff;
+}
+.button.light{
+    background: #ffffff;
+    color: #0077ff;
+}
+.light a:link{
+    color: #0077ff;
+}
+
+body.dark{
+    background: #1b1a30;
+    color: #ffffff;
+}
+.button.dark {
+    background: #1b1a30;
+    color: #ffffff;
+}
+.dark a:link {
+    color: #ffffff;
+}

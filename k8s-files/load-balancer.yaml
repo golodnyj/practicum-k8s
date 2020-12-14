@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: default
+  name: lab-demo
+  labels:
+    app-label: lab-demo-label
+spec:
+  ports:
+    - port: 80
+      name: plaintext
+      targetPort: 80
+  selector:
+    app-label: lab-demo-label
+  type: LoadBalancer
